@@ -7,7 +7,7 @@ u = initialVelocity
 a = acceleration
 t = timeSpent
 v = u + ( a * t )
-for i in range ( timeSpent ):
+for i in range ( timeSpent + 1 ):
     s = (1/2) * a * ((i)**2)
     noOfStar = s // 5
     print ("Duration : ",i," Distance : ",end="")

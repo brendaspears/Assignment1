@@ -10,7 +10,7 @@ t = timeSpent
 v = u + ( a * t )
 x=[]
 y=[]
-for i in range ( int(timeSpent) ):
+for i in range ( int(timeSpent) + 1):
     s = (1/2) * a * ((i)**2)
     noOfStar = s // 5
     print ("Duration : ",i," Distance : ",end="")
